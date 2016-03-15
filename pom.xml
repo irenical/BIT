@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.irenical.maven</groupId>
+    <artifactId>parent-root</artifactId>
+    <version>1.8.2</version>
+  </parent>
+
+  <groupId>org.irenical.bit</groupId>
+  <artifactId>bit</artifactId>
+  <version>1.0.0</version>
+
+  <name>BIT</name>
+  <description>Bytecode Instrumenting Tool by Han Bok Lee</description>
+
+  <packaging>jar</packaging>
+
+  <scm>
+    <connection>scm:git:git@github.com:irenical/BIT.git</connection>
+    <developerConnection>scm:git:git@github.com:irenical/BIT.git</developerConnection>
+    <url>git@github.com:irenical/BIT.git</url>
+  </scm>
+  
+  <licenses>
+    <license>
+      <name>Copyright (c) 1997, The Regents of the University of Colorado. All Rights Reserved.</name>
+      <url>http://www.cu.edu/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Tiago Simão</name>
+      <email>tiagosimao@gmail.com</email>
+    </developer>
+  </developers>
+
+</project>
